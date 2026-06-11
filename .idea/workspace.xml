@@ -1,31 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5549d890-4f24-4691-89c1-42a902342f4f" name="Changes" comment="" />
+    <list default="true" id="5549d890-4f24-4691-89c1-42a902342f4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/flex-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/templatemo-stand-blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/flexslider-icon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/flexslider-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/flexslider-icon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/flexslider-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/about-us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/banner-item-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/banner-item-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/banner-item-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/banner-item-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/banner-item-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/banner-item-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-post-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-post-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-post-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-thumb-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-thumb-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-thumb-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-thumb-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-thumb-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-thumb-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/comment-author-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/comment-author-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/comment-author-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cta-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/heading-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/accordions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/isotope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/owl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_app/templates/home_app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EwptrLRKkOhxSbOCH1PMISzdsF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.blog_project.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Matin/Desktop/blog_project/assets",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Matin\Desktop\blog_project\assets" />
+      <recent name="C:\Users\Matin\Desktop\blog_project\home_app\templates\home_app" />
+      <recent name="C:\Users\Matin\Desktop\blog_project" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="blog_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="blog_project" />
@@ -34,6 +115,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="blog_project.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -69,6 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781099706229</updated>
       <workItem from="1781099707293" duration="755000" />
+      <workItem from="1781183985929" duration="2546000" />
     </task>
     <servers />
   </component>
