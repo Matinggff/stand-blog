@@ -1091,3 +1091,32 @@ footer p a:hover {
 		margin-top: 60px;
 	}
 }
+
+
+
+
+.nav-btn {
+    border-radius: 30px;
+    padding: 8px 20px !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-btn-login {
+    border: 2px solid #f48840;
+    color: #f48840 !important;
+}
+
+.nav-btn-login:hover {
+    background: #f48840;
+    color: #fff !important;
+}
+
+.nav-btn-logout {
+    background: #f48840;
+    color: #fff !important;
+}
+
+.nav-btn-logout:hover {
+    opacity: 0.9;
+}
