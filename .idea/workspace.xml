@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5549d890-4f24-4691-89c1-42a902342f4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/users_app/templates/users_app/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/templatemo-stand-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/templatemo-stand-blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_app/templates/home_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/templates/home_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users_app/templates/users_app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/templates/users_app/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/views.py" afterDir="false" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Django Server.blog_project.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
@@ -111,7 +115,8 @@
       <workItem from="1781183985929" duration="6125000" />
       <workItem from="1781267980377" duration="1633000" />
       <workItem from="1781361580767" duration="5442000" />
-      <workItem from="1781456062419" duration="1897000" />
+      <workItem from="1781456062419" duration="4877000" />
+      <workItem from="1781544574767" duration="6097000" />
     </task>
     <servers />
   </component>

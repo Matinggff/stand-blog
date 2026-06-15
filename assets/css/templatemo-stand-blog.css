@@ -1102,21 +1102,29 @@ footer p a:hover {
     transition: 0.3s;
 }
 
-.nav-btn-login {
-    border: 2px solid #f48840;
+.login-btn {
     color: #f48840 !important;
+    border: 2px solid #f48840;
+    padding: 8px 15px;
+    border-radius: 25px;
+    margin-left: 8px;
+    transition: .3s;
 }
 
-.nav-btn-login:hover {
+.login-btn:hover {
     background: #f48840;
     color: #fff !important;
 }
 
-.nav-btn-logout {
+.register-btn {
     background: #f48840;
     color: #fff !important;
+    padding: 8px 15px;
+    border-radius: 25px;
+    margin-left: 5px;
+    transition: .3s;
 }
 
-.nav-btn-logout:hover {
-    opacity: 0.9;
+.register-btn:hover {
+    opacity: .9;
 }
