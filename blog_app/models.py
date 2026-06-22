@@ -9,6 +9,10 @@ class Category(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+
+    class Meta:
+        verbose_name_plural = "Categories"
+
     def __str__(self):
         return f"{self.title}"
 
@@ -22,6 +26,10 @@ class Post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to='images/posts')
     slug = models.SlugField(max_length=200, unique=True, blank=True, null=True)
+
+
+    # class Meta:
+    #     ordering = ['-updated_at', '-created_at']
 
     def save(self, *args, **kwargs):
         if not self.slug:
