@@ -3,31 +3,7 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
-          rel="stylesheet">
-
-    <title>Stand CSS Blog by TemplateMo</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="{% static "css/fontawesome.css" %}">
-    <link rel="stylesheet" href="{% static "css/templatemo-stand-blog.css" %}">
-    <link rel="stylesheet" href="{% static "css/owl.css" %}">
-    <!--
-
-    TemplateMo 551 Stand Blog
-
-    https://templatemo.com/tm-551-stand-blog
-
-    -->
+    {% include 'includes/header_refrences.html' %}
 </head>
 
 <body>
@@ -43,113 +19,7 @@
 <!-- ***** Preloader End ***** -->
 
 <!-- Header -->
-<header class="">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><h2>Stand Blog<em>.</em></h2></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="{% url 'home_app:home' %}">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'blog_app:post_list' %}">Blog Entries</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Post Details</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-
-                    <!-- logout button -->
-
-                    {% if request.user.is_authenticated %}
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle"
-                               href="#"
-                               id="profileDropdown"
-                               role="button"
-                               data-toggle="dropdown"
-                               aria-haspopup="true"
-                               aria-expanded="false">
-
-                                {% if request.user.profile.image %}
-
-                                    <img src="{{ user.profile.image.url }}"
-                                         alt="Profile"
-                                         style="
-                width:42px;
-                height:42px;
-                border-radius:50%;
-                object-fit:cover;
-                border:2px solid #f48840;
-             ">
-                                {% else %}
-                                    <img src="{% static 'icons/default-profile.jpg' %}"
-                                         alt="Profile"
-                                         style="
-                width:42px;
-                height:42px;
-                border-radius:50%;
-                object-fit:cover;
-                border:2px solid #f48840;
-             ">
-                                {% endif %}
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-right">
-
-                                <a class="dropdown-item" href="#">
-                                    <i class="fa fa-user"></i> Profile
-                                </a>
-
-                                <a class="dropdown-item" href="#">
-                                    <i class="fa fa-file-text"></i> My Posts
-                                </a>
-
-                                <div class="dropdown-divider"></div>
-
-                                <a class="dropdown-item text-danger"
-                                   href="{% url 'users_app:logout' %}">
-                                    <i class="fa fa-sign-out"></i> Logout
-                                </a>
-
-                            </div>
-                        </li>
-
-                    {% else %}
-
-                        <li class="nav-item">
-                            <a href="{% url 'users_app:login' %}" class="login-btn">
-                                Login
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="{% url 'users_app:register' %}" class="register-btn">
-                                Register
-                            </a>
-                        </li>
-
-                    {% endif %}
-
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+{% include 'includes/header.html' %}
 
 
 {% block content %}
@@ -161,50 +31,10 @@
 {% endblock %}
 
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="social-icons">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Behance</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Dribbble</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-12">
-                <div class="copyright-text">
-                    <p>Copyright 2020 Stand Blog Co.
-
-                        | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+{% include 'includes/footer.html' %}
 
 <!-- Bootstrap core JavaScript -->
-<script src="{% static "vendor/jquery/jquery.min.js" %}"></script>
-<script src="{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
-
-<!-- Additional Scripts -->
-<script src="{% static "js/custom.js" %}"></script>
-<script src="{% static "js/owl.js" %}"></script>
-<script src="{% static "js/slick.js" %}"></script>
-<script src="{% static "js/isotope.js" %}"></script>
-<script src="{% static "js/accordions.js" %}"></script>
-
-<script language="text/Javascript">
-    cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-    function clearField(t) {                   //declaring the array outside of the
-        if (!cleared[t.id]) {                      // function makes it static and global
-            cleared[t.id] = 1;  // you could use true and false, but that's more typing
-            t.value = '';         // with more chance of typos
-            t.style.color = '#fff';
-        }
-    }
-</script>
+{% include 'includes/footer_refrences.html' %}
 
 </body>
 </html>
