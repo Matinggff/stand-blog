@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_cleanup.apps.CleanupConfig',
+    'django_render_partial',
 
     'home_app.apps.HomeAppConfig',
     'users_app.apps.UsersAppConfig',
