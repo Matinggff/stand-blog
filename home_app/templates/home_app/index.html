@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
-x`{% load render_partial %}
+{% load render_partial %}
+{% load social_share %}
+
 
 {% block content %}
     <!-- Page Content -->
@@ -91,8 +93,7 @@ x`{% load render_partial %}
                                                 <div class="col-6">
                                                     <ul class="post-share">
                                                         <li><i class="fa fa-share-alt"></i></li>
-                                                        <li><a href="#">Facebook</a>,</li>
-                                                        <li><a href="#"> Twitter</a></li>
+                                                        <li>{% post_to_telegram post.title post.get_absolute_url %}</li>
                                                     </ul>
                                                 </div>
                                             </div>
