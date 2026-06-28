@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5549d890-4f24-4691-89c1-42a902342f4f" name="Changes" comment="add register form and view">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_app/templates/blog_app/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/templates/blog_app/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="5549d890-4f24-4691-89c1-42a902342f4f" name="Changes" comment="add register form and view" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +120,7 @@
       <workItem from="1782134430523" duration="8493000" />
       <workItem from="1782232447338" duration="6229000" />
       <workItem from="1782477412564" duration="3654000" />
-      <workItem from="1782564808033" duration="1699000" />
+      <workItem from="1782564808033" duration="2185000" />
     </task>
     <task id="LOCAL-00001" summary="add register form and view">
       <option name="closed" value="true" />
